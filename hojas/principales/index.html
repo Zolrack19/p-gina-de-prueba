@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super proyecto</title>
+    <link rel="stylesheet" href="/estilos/principales/general.css">
+    <link rel="stylesheet" href="/estilos/principales/index.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Mi proyecto personal</h1>
+    </header>
+
+    <ul class="cabezal">
+        <li><a class="seccion home">Home</a></li>
+        <li><a class="seccion" href="datosP.html">Datos personales</a></li>
+        <li><a class="seccion" href="pasatiempo.html">Pasatiempos</a></li>
+        <li><a class="seccion" href="../lugares/lima.html">Lugares visitados</a></li>
+    </ul>
+
+    <article class="cuerpo">
+        <form>
+            <label for="titular">Tu opinión importa</label>
+            <input type="text" id="nombre" placeholder="Nombres" maxlength="15">
+            <input type="text" id="apellido" placeholder="Apellidos" maxlength="19">
+            <label id="subtitulo">Dejanos un comentario</label>
+            <textarea name="comentario" id="comentario"></textarea>
+            <button id="boton" type="button" onclick="mostrar()">Aceptar</button>
+            <script src="/js/submit.js"></script>
+        </form>
+
+        <div class="video"></div>
+    </article>
+
+    <footer>
+        <div>Derechos de autor Zolrack19</div>
+    </footer>
+
+</body>
+
+</html>

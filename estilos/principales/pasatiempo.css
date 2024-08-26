@@ -1,0 +1,42 @@
+body, header {
+    background-image: linear-gradient(to right, rgb(154, 254, 254), white);
+}
+
+article {
+    font-size: 20px;
+}
+
+#a {
+    background-image: url("/assets/imagenes/Arte\ Urbano.jfif");
+    background-size: cover;
+    height: 300px;
+}
+
+#b {
+    background-image: url("/assets/imagenes/imagen2.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+#c {
+    background-image: url("/assets/imagenes/imagen6.jpg");
+    background-size: cover;
+    width: 400px;
+}
+
+
+.imagenL {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    mask-image: linear-gradient(to right, black 70%, transparent 100%);
+}
+
+.imagenR {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    mask-image: linear-gradient(to left, black 70%, transparent 100%);
+}

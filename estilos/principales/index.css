@@ -1,0 +1,89 @@
+.cuerpo {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color:antiquewhite;
+}
+header {
+    background-color: inherit;
+}
+
+.cuerpo form {
+    padding: 0 28px;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 1px solid black;
+    justify-content: space-around;
+    background-image: url("/assets/imagenes/imagen4.jpg");
+    background-size: cover;
+    border-top-left-radius: 90px 40px;
+}
+
+form label:first-child {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 18px 0 32px;
+}
+
+#nombre, #apellido {
+    font-size: 17px;
+    padding-left: 11px;
+    width: 216px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    background-color: transparent;
+    box-shadow: 4px 4px 1px black;
+    color: black;
+    text-shadow: 0 0 1px black;
+}
+
+#nombre:focus, #apellido:focus {
+    box-shadow: 12px 12px 1px goldenrod;
+}
+
+#subtitulo {
+    margin: 46px 0 28px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+#comentario {
+    max-width: calc(100% - 20px);
+    max-height: 193px;
+    min-width: calc(100% - 20px);
+    min-height: 193px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 11px;
+    font-size: 17px;
+    background-color: transparent;
+    box-shadow: 7px 7px 1px black,
+    inset -16px 0 29px white;
+    color: black;
+    text-shadow: 0 0 1px black;
+}
+
+.video {
+    width: 25%;
+    border: 1px solid black;
+    background-image: url("/assets/videos/rio.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#boton {
+    font-size: large;
+    background-color: transparent;
+    filter: blur(1px);
+    margin-left: 40%;
+    width: 25%;
+}
+
+#boton:hover {
+    cursor: pointer;
+    filter: blur(0px);
+}

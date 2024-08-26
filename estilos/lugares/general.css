@@ -1,0 +1,42 @@
+.barra {
+    transition: 0.5s;
+    width: 20px;
+    height: 250px;
+    background-color: #321d1dae;
+    margin: -0px 0 -8px -8px;
+    position: fixed;
+    text-align: left;
+}
+
+.barra:hover {
+    transition: 0.5s;
+    width: 230px;
+}
+
+.barra:hover li a {
+    transition: 1s;
+    color: white;
+    display: initial;
+}
+
+.barra li {
+    list-style: none;
+    line-height: 50px;
+}
+
+.lugar {
+    color: transparent;
+    display: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px -10px -10px;
+    text-align: center;
+    height: 200px;
+    background-color: #444444;
+    font-size: xx-large;
+    color: white;
+}
